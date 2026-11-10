@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "headshot-studio",
+  "displayName": "海马体职业照",
+  "version": "1.0.0",
+  "description": "上传一张自拍或生活照，用 MiniMax H3 Image 生成影棚级职业照：商务职业照、简历求职照、证件照、LinkedIn 形象照四种套系，可选着装、背景色与张数。保留你本人的五官和气质，自然精修不换脸，同一次拍出多种姿态表情，逐张质检后交付 2K 成片。",
+  "author": "MiniMax",
+  "icon": "icon.png",
+  "category": "Studio",
+  "exampleQueries": [
+    "用这张自拍帮我拍一套海马体风格的商务职业照",
+    "把我的照片做成白底简历照，穿深色西装",
+    "帮我生成一张 LinkedIn 头像，亲和一点，暖色背景"
+  ],
+  "apps": [],
+  "mcpServers": [],
+  "skills": [
+    "skills/headshot-studio/SKILL.md"
+  ]
+}
