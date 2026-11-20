@@ -98,3 +98,12 @@ Variant：
 - 高级灰渐变：`seamless studio backdrop in elegant medium grey with a soft gradient vignette`
 - 纯白：`seamless pure white studio backdrop, clean and bright`
 - 证件蓝：`seamless studio backdrop in soft professional blue, evenly lit`
+
+## 组合冲突处理
+
+同一条提示词里不能出现互相矛盾的描述。拼接前按下面的规则改写：
+
+- **画幅**：business 的 Variant 3 是 `Waist-up framing`。用它时把 Shot 里的 `Chest-up framing` 一并改成 `Waist-up framing`，不要两种画幅同时出现。
+- **证件照背景只能是纯色**：背景题选了"高级灰渐变"时，证件照按白底处理并在交付时说明；选"证件蓝"时用证件照小节的 `standard ID photo blue (#438EDB) solid color`，不要用非证件照的 `soft professional blue`。
+- **不穿外套**：着装是"浅色衬衫或针织，不穿外套"，或保留的原衣服没有外套时，profile 的 Variant 3（`Hand lightly touching the jacket lapel`）改为 `Arms relaxed at the sides, calm smile, thoughtful look.`；business 默认着装里关于领带的补充也不要加。
+- **1:1 头像**：profile 选头像用途时 Shot 用括号里的 `tight head-and-shoulders` 画幅，画面里放不下手，Variant 3 同样改用上一条的无手势写法。
